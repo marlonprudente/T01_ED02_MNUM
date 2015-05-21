@@ -44,11 +44,11 @@ void divisao_conquista(int *num1, int *num2)
 
 int main(int argc, char** argv) {
 
-    int num1 = 6514202, num2 = 9898989;
-    //cout << "Digite o primeiro numero: \n";
-    //cin >> num1;
-   // cout << "Digite o Segundo numero:\n";
-    //cin >> num2;
+    int num1 /*= 6514202*/, num2 /*= 9898989*/;
+    cout << "Digite o primeiro numero: \n";
+    cin >> num1;
+    cout << "Digite o Segundo numero:\n";
+    cin >> num2;
     
     cout <<"Forca Bruta: =>" << forca_bruta(&num1, &num2);
     cout <<"\nDivisao e Conquista: =>";
